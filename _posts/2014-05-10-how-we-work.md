@@ -8,7 +8,7 @@ published: true
 tags: scrum, kanban, srum-ban, scrumban, agile, distributed, team
 ---
 
-Well...
+
 
 As a team we are distributed across multiple locations, we are based in London, Dordrecht, Heidelberg and Berlin at the moment. This brings along some challenges, since our development teams don't work in a distributed fashion. We have Development teams present in all of those locations, but each Dev team is sharing the same roof.
 
@@ -43,12 +43,12 @@ A more in depth look at how we have setup this board, with labels, tags and poin
 ###Reporting
 We are able to get our reports from Trello to a Google sheet, by using the Trello api and Google script. We are able to create nice charts and share these with the relevant stakeholders as well. We use the Scrum for Trello plugin (link) to give points to stories, these point are collected in the script we have created.
 
->>example graphs
+<pic> example graphs
 
-If you are interested in how we managed to pull and store data from Trello, please read this post
+If you are interested in how we managed to pull and store data from Trello, please read this post <link to post>
 
 ###Chat/IM
-To keep in touch with each other we use group instant messaging, at the moment we use HipChat from Atlassian. We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on github here.
+To keep in touch with each other we use group instant messaging, at the moment we use HipChat from Atlassian. We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on github here <link>
 
 ###Travels
 We also travel regularly to these office to meetup with the team and also collaborate with other teams. We recently organised a hackathon in Dordrecht, of which we will blog about soon :-)
@@ -58,5 +58,6 @@ So you can find us frequently in one of our offices, but we also attend interest
 
 See you somewhere soon :-)
 
-	
-#####Platform Engineering < < < Seriously!!
+
+<b> 	
+#####*Platform Engineering < < < Seriously!!*
