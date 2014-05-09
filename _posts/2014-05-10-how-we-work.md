@@ -43,7 +43,7 @@ A more in depth look at how we have setup this board, with labels, tags and poin
 ###Reporting
 We are able to get our reports from Trello to a Google sheet, by using the Trello api and Google script. We are able to create nice charts and share these with the relevant stakeholders as well. We use the Scrum for Trello plugin (link) to give points to stories, these point are collected in the script we have created.
 
->>example graphs
+![alt text](/images/pie-chart01.png "Emxample Pie-Chart")
 
 If you are interested in how we managed to pull and store data from Trello, please read this post
 
