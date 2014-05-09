@@ -8,7 +8,7 @@ published: true
 tags: scrum, kanban, srum-ban, scrumban, agile, distributed, team
 ---
 
-
+Well...
 
 As a team we are distributed across multiple locations, we are based in London, Dordrecht, Heidelberg and Berlin at the moment. This brings along some challenges, since our development teams don't work in a distributed fashion. We have Development teams present in all of those locations, but each Dev team is sharing the same roof.
 
