@@ -3,7 +3,7 @@ author: jefe_problemas
 date: 2014-05-08
 title: 'About the way we work'
 category: process
-layout: post
+layout: page
 published: true
 tags: scrum, kanban, srum-ban, scrumban, agile, distributed, team
 ---
