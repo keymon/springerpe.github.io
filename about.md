@@ -4,7 +4,7 @@ permalink: /about/
 title: About the Platform Engineering Team
 tags:
 image:
-  feature: cocktails.jpg
+  feature: lego-game.jpg
 ---
 
 ###Who are we?
