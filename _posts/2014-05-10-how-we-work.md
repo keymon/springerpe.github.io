@@ -18,7 +18,10 @@ Development is done using the Agile methodology and this is one reason for us to
 
 ###Scrum-Ban
 For our more strategic work, we decided to use Scrum and for the more operational Ad-Hoc work we try to follow a Kanban workflow. 
-We have iterations (sprints) of two weeks in which we do our strategic (planned) work and keep some headroom for unplanned work. We start of every iteration with a planning session, done using Google Hangouts. During this session we take work from the backlog, move it to the new iteration. Based on what has most value we decide what we will work on for the next two weeks, leaving headroom for incidents and urgent requests. 
+We have iterations (sprints) of two weeks in which we do our strategic (planned) work and keep some headroom for unplanned work.
+
+We start of every iteration with a planning session, done using Google Hangouts. During this session we take work from the backlog, move it to the new iteration. Based on what has most value we decide what we will work on for the next two weeks, leaving headroom for incidents and urgent requests. 
+
 We then start the iteration and use Kanban to get work to done, more on the Kanban board later. Incidents, requests and other unplanned activities that come in, that can’t wait until the next iteration, get thrown into the Kanban board as we go. We strive to record as much work as we can, in order to be able to do better reporting.
 
 Every morning we have a “stand-up” over Google Hangouts, each of us tells what he/she was working on yesterday and what the plan is for today and if there’s any blockers. This is also a good opportunity to ask for help, but it is not the place to resolve issues and have long discussions, these should be held separately.
