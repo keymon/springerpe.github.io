@@ -4,7 +4,7 @@ permalink: /about/
 title: About the Platform Engineering Team
 tags:
 image:
-  feature: cocktails.jpg
+  feature: abstract-5.jpg
 ---
 
 ###Who are we?
