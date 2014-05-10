@@ -3,7 +3,9 @@ author: jefe_problemas
 date: 2014-05-08
 title: 'About the way we work'
 category: process
-layout: page
+layout: post
+image: 
+  feature: trello-banner.png
 published: true
 tags: scrum, kanban, srum-ban, scrumban, agile, distributed, team
 ---
@@ -29,7 +31,7 @@ To conclude the whole iteration we have a showcase to our stakeholders to inform
 
 
 ###The Boards
-To structure our work and make it visible we use Trello (link). We have created two main Trello boards, one for the backlog and one for the current Iteration (Sprint). 
+To structure our work and make it visible we use [Trello](http://www.trello.com). We have created two main Trello boards, one for the backlog and one for the current Iteration (Sprint). 
 
 First is the backlog board, which speaks for itself, it’s a visual representation of the work that we will be working on in upcoming iterations. We have defined various columns, to separate Epics, Requests, Stories pending analysis, Stories ready for iteration and Technical Debt.
 
@@ -43,18 +45,18 @@ A more in depth look at how we have setup this board, with labels, tags and poin
 ###Reporting
 We are able to get our reports from Trello to a Google sheet, by using the Trello api and Google script. We are able to create nice charts and share these with the relevant stakeholders as well. We use the Scrum for Trello plugin (link) to give points to stories, these point are collected in the script we have created.
 
-![alt text](/images/pie-chart01.png "Emxample Pie-Chart")
+![alt text](/images/burn-chart.png "Emxample Burn-Chart")
 
-If you are interested in how we managed to pull and store data from Trello, please read this post
+If you are interested in how we managed to pull and store data from Trello, please read our detailed post about the script we created.
 
 ###Chat/IM
-To keep in touch with each other we use group instant messaging, at the moment we use HipChat from Atlassian. We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on github here.
+To keep in touch with each other we use group instant messaging, at the moment we use [HipChat](http://www.hipchat.com) from [Atlassian](http://www.atlassian.com). We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on github here.
 
 ###Travels
 We also travel regularly to these office to meetup with the team and also collaborate with other teams. We recently organised a hackathon in Dordrecht, of which we will blog about soon :-)
 We are already planning to do another hackathon, together with some developers, in London this time around.
 
-So you can find us frequently in one of our offices, but we also attend interesting events and meetups. The next event we will go to is most likely DevOps Days in Amsterdam! Next month we will host our very own DevOps Day in our London office!!
+So you can find us frequently in one of our offices, but we also attend interesting events and meetups. The next event we will go to is most likely [DevOps Days in Amsterdam!](http://devopsdays.org/events/2014-amsterdam/) Next month we will host our very own DevOps Day in our London office!!
 
 See you somewhere soon :-)
 
