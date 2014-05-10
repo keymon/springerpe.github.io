@@ -3,6 +3,7 @@ layout: post
 permalink: /about/
 title: About the Platform Engineering Team
 tags:
+comments: false
 image:
   feature: cocktails.jpg
 ---
