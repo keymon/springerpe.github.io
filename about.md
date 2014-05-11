@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /about/
 title: About the Platform Engineering Team
 tags:
