@@ -66,6 +66,7 @@ So you can find us frequently in one of our offices, but we also attend interest
 See you somewhere soon :-)
 
 Cheers!
+
 JefOtte
 
 <a href="https://twitter.com/daniel_otte" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @daniel_otte</a>

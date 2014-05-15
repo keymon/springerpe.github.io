@@ -24,6 +24,7 @@ I will try to write some ‘non technical’ posts from time to time, to share m
 So don’t expect very deep technical articles from me and feel free to ignore my stuff if it bores you…
 
 Cheers!
+
 JefOtte
 
 <a href="https://twitter.com/daniel_otte" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @daniel_otte</a>
