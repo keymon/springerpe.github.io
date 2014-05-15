@@ -1,5 +1,5 @@
 ---
-author: jefe_problemas 
+author: JefOtte
 date: 2014-05-08
 title: 'About the way we work'
 category: process
@@ -64,6 +64,11 @@ We are already planning to do another hackathon, together with some developers, 
 So you can find us frequently in one of our offices, but we also attend interesting events and meetups. The next event we will go to is most likely [DevOps Days in Amsterdam!](http://devopsdays.org/events/2014-amsterdam/) Next month we will host our very own DevOps Day in our London office!!
 
 See you somewhere soon :-)
+
+Cheers JefOtte
+
+<a href="https://twitter.com/daniel_otte" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @daniel_otte</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 	
 
