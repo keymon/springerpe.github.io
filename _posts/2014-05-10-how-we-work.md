@@ -8,6 +8,7 @@ image:
   feature: trello-banner.png
 published: true
 tags: scrum kanban srum-ban scrumban agile distributed team JefOtte
+comments: true
 ---
 
 Well...

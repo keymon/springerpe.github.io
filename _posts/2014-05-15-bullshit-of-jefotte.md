@@ -8,6 +8,7 @@ image:
   feature: cocktails.jpg
 published: true
 tags: team bullshit devops agile distributed JefOtte
+comments: true
 ---
 
 Short (really short) background on me.
