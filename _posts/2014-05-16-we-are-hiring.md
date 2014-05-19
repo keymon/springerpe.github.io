@@ -14,7 +14,7 @@ comments: true
 Yes...we are hiring!! If you are reading this, you might just be the person we are looking for :-)
 
 We are looking to expand our Platform Engineering team, we have TWO open positions one in our Berlin office and one in London. Currently we are a team of seven, based in London, Dordrecht, Berlin and Heidelberg.
-Read more about us in our 'about page' if your interested, also make sure to read the post about 'how we work' to get a rough idea of what we are doing.
+Read more about us in our ['about page'](/about) if your interested, also make sure to read the post about ['how we work']({% post_url 2014-05-10-how-we-work %}) to get a rough idea of what we are doing.
 
 If you are interested in joining our team in either of these two locations, be sure to checkout our recruitment site [JoinIT](http://joinit.springer.com) and select the Platform Engineering role.  While you are there you will notice we are looking for people in other positions as well, so be sure to check those out and spread the word :-)
 

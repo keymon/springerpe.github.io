@@ -1,6 +1,6 @@
 ---
 author: JefOtte
-date: 2014-05-08
+date: 2014-05-10
 title: 'About the way we work'
 category: process
 layout: post
