@@ -6,7 +6,19 @@ disqus_shortname: springerpe
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
 url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
-# Owner/author information
+# author information
+authors:
+  otte:
+    name: Daniel Otte
+    display_name: Daniel Otte
+    gravatar: 
+    twitter: Jef0tte
+  rivas:
+    name: Hector Rivas
+    display_name: Hector Rivas
+    gravatar:
+    twitter: thekeymon
+# Owner
 owner:
   name:           Platform Engineering
   avatar:         avatar.jpg
@@ -23,7 +35,6 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
-
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
 google_verify:      

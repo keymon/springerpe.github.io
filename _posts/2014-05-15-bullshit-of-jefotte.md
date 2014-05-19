@@ -1,5 +1,5 @@
 ---
-author: JefOtte 
+author: otte
 date: 2014-05-15
 title: 'The Bullshit of JefOtte'
 category: process
@@ -7,7 +7,7 @@ layout: post
 image: 
   feature: cocktails.jpg
 published: true
-tags: team bullshit devops agile distributed JefOtte
+tags: team bullshit devops agile distributed
 comments: true
 ---
 
@@ -27,6 +27,3 @@ So don’t expect very deep technical articles from me and feel free to ignore m
 Cheers!
 
 JefOtte
-
-<a href="https://twitter.com/Jef0tte" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @Jef0tte</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
