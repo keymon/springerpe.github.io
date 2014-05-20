@@ -9,6 +9,7 @@ image:
 published: true
 tags:  platform development systems engineering devops agile
 comments: true
+share: true
 ---
 
 Yes...we are hiring!! If you are reading this, you might just be the person we are looking for :-)

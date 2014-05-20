@@ -9,6 +9,7 @@ image:
 published: true
 tags: team bullshit devops agile distributed
 comments: true
+share: true
 ---
 
 Short (really short) background on me.

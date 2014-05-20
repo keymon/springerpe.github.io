@@ -9,6 +9,7 @@ image:
 published: true
 tags: scrum kanban srum-ban scrumban agile distributed team
 comments: true
+share: true
 ---
 
 Well...
