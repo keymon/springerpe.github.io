@@ -7,7 +7,7 @@ disqus_shortname: springerpe
 url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
 # author information
-author_ids: [otte, rivas, koeb]
+author_ids: [otte, keymon, koeb, simon]
 authors:
   otte:
     name: Daniel Otte
