@@ -17,6 +17,7 @@ authors:
     email: daniel.otte@springer.com
     twitter: Jef0tte
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   keymon:
     name: Hector Rivas
     display_name: Keymon
@@ -34,6 +35,8 @@ authors:
     email: simon@simonjohansson.com
     bio: I like music and computers.
 =======
+=======
+>>>>>>> Stashed changes
     github: daniel-otte
     bio: 'Father | Geek | Head on body | People | IT | Ops | Dev | Leadership | Platform Engineering | Travel | Movies | Always learning...'
   rivas:
@@ -54,6 +57,9 @@ authors:
     twitter:
     github: koebspringer
     bio: 'DevOps | smartass | SciFi-lover | beer-snob that eats to much and moves to little'
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 # Owner
 owner:
