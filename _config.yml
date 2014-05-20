@@ -18,6 +18,14 @@ authors:
     display_name: Hector Rivas
     gravatar:
     twitter: thekeymon
+  simon:
+    name: Simon Johansson
+    display_name: Simon Johansson
+    gravatar:
+    twitter: KarlSimonJohan
+    github: simonjohansson
+    email: simon@simonjohansson.com
+    bio: I like music and computers.
 # Owner
 owner:
   name:           Platform Engineering
