@@ -1,0 +1,42 @@
+---
+layout: page
+permalink: /team/
+title: Meet the team
+tags:
+comments: false
+image:
+  feature: cocktails.jpg
+---
+
+<div class="authors">
+	{% for author_id in site.author_ids %}
+	{% assign author = site.authors[author_id] %}
+	<div id="{{ author_id }}" class="author" class="pull-left">
+		<hr>
+		<a href="{{ author.web }}">
+			<img
+				class="author-image"
+				src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
+				alt="{{ author.display_name }}"
+				width="150"
+				height="150"
+				margin-right="15px"
+			>
+		<h3>{{ author.display_name }}</h3>
+		</a>
+		<ul class="author-list">
+			<li class="author-list">
+				<a class="icon-twitter" href="https://twitter.com/#!/{{ author.twitter }}"></a> 
+			</li>
+			<li class="author-list">
+				<a class="icon-envelope" href="mailto:{{ author.email }}"></a>
+			</li>
+			<li class="author-list">
+				<a class="icon-github" href="http://github.com/{{ author.github }}"></a>
+			</li>
+		</ul>
+		
+		<p>{{ author.bio }}</p>
+	</div>
+	{% endfor %}
+</div>

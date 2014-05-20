@@ -4,15 +4,19 @@ disqus_shortname: springerpe
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://springerpe.github.io
+# url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
 # author information
+author_ids: [otte, rivas, koeb]
 authors:
   otte:
     name: Daniel Otte
+    job_title: Jefe Problemas
     display_name: Daniel Otte
-    gravatar: 
+    gravatar: 1b2ba3880f13a8275537f5d6f70f8b84
+    email: daniel.otte@springer.com
     twitter: Jef0tte
+<<<<<<< Updated upstream
   keymon:
     name: Hector Rivas
     display_name: Keymon
@@ -29,6 +33,28 @@ authors:
     github: simonjohansson
     email: simon@simonjohansson.com
     bio: I like music and computers.
+=======
+    github: daniel-otte
+    bio: 'Father | Geek | Head on body | People | IT | Ops | Dev | Leadership | Platform Engineering | Travel | Movies | Always learning...'
+  rivas:
+    name: Hector Rivas
+    job_title: Platform Engineer
+    display_name: Hector Rivas
+    gravatar: 
+    email: hector.rivas@springer.com
+    twitter: thekeymon
+    github: keymon
+    bio: 'short description goes here'
+  koeb:
+    name: Alexander Köb
+    job_title: Platform Engineer
+    display_name: Alexander Köb
+    gravatar: cd122fd16a22f86839d0ec16e3880974
+    email: alexander.koeb@springer.com
+    twitter:
+    github: koebspringer
+    bio: 'DevOps | smartass | SciFi-lover | beer-snob that eats to much and moves to little'
+>>>>>>> Stashed changes
 # Owner
 owner:
   name:           Platform Engineering
