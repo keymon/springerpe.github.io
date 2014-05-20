@@ -13,11 +13,14 @@ authors:
     display_name: Daniel Otte
     gravatar: 
     twitter: Jef0tte
-  rivas:
+  keymon:
     name: Hector Rivas
-    display_name: Hector Rivas
-    gravatar:
+    display_name: Keymon
+    gravatar: 642eef33b266eec5223c8010496b400f
     twitter: thekeymon
+    email: hector.rivas@springer.com
+    github: keymon
+    bio: I do yak shaving on linux boxes
   simon:
     name: Simon Johansson
     display_name: Simon Johansson
@@ -35,7 +38,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        springerpe
   facebook:       
-  github:         
+  github:         springerpe
   stackexchange:  
   linkedin:       
   instagram:      
