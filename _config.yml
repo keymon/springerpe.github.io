@@ -7,7 +7,7 @@ disqus_shortname: springerpe
 #url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
 # author information
-author_ids: [otte, keymon, koeb, simon]
+author_ids: [otte, keymon, koeb, simon, katter]
 authors:
   otte:
     name: Daniel Otte
@@ -49,6 +49,7 @@ authors:
     name: Carsten Hiort
     job_title: Platform Engineer
     display_name: Carsten Hiort
+    alias: Katter
     gravatar: c5888020c920f407211d297270493501
     email: carsten.hiort@springer.com
     twitter: katterstrophe
