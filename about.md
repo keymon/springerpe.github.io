@@ -8,7 +8,7 @@ image:
   feature: cocktails.jpg
 ---
 
-###Who are we?
+###Who are we? [<-- meet the team](/team/)
 
 We are a global team of passionate engineers, who enable development teams rapidly produce, maintain and release software products and services. We do this in an reliable and automated way, if it can't be automated it does not exist! We deliver a set of standards, backing services, guidelines and tools.
 
