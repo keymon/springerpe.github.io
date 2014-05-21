@@ -7,7 +7,7 @@ disqus_shortname: springerpe
 #url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
 # author information
-author_ids: [otte, keymon, koeb, simon, katter, jose]
+author_ids: [otte, keymon, koeb, simon, katter, jose, marc]
 authors:
   otte:
     name: Daniel Otte
@@ -65,6 +65,16 @@ authors:
     twitter: jose_riguera
     github: jriguera
     bio: 'Openstack guru'
+  marc:
+    name: Marc Driessen 
+    job_title: Platform Engineer
+    display_name: Marc Driessen 
+    alias:  
+    gravatar: e2191d2ba882b055cd64604249807da9 
+    email: marc.driessena@springer.com
+    twitter: marcdriessen 
+    github: sprmarc 
+    bio: 'I am dutch'
 # Owner
 owner:
   name:           Platform Engineering
