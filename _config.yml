@@ -75,6 +75,15 @@ authors:
     twitter: marcdriessen 
     github: sprmarc 
     bio: 'I am dutch'
+  josef:
+    name: Josef Hoerandtner
+    job_title: Platform Engineer
+    display_name: Josef Hoerandtner
+    gravatar: 4177dfb6a675547dcce2370f43b3a64f
+    email: josef.hoerandtner@springer.com
+    twitter: jhoerandtner
+    github: jossy
+    bio: 'unity user | continuous integrator | coffee culture advocate'
 # Owner
 owner:
   name:           Platform Engineering
