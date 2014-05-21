@@ -1,11 +1,81 @@
 title:            Platform Engineering Blog
 description:      blog of a few engineers lost in space between dev and ops.
-disqus_shortname: shortname
+disqus_shortname: springerpe
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://springerpe.github.io      
-# Owner/author information
+#url:              http://springerpe.github.io
+# production_url:              http://springerpe.github.io      
+# author information
+author_ids: [otte, keymon, koeb, simon, katter, jose, marc]
+authors:
+  otte:
+    name: Daniel Otte
+    job_title: Jefe Problemas
+    display_name: Daniel Otte
+    alias: Trouble
+    gravatar: 1b2ba3880f13a8275537f5d6f70f8b84
+    email: daniel.otte@springer.com
+    twitter: Jef0tte
+    github: daniel-otte
+    bio: 'Father | Geek | Head on body | People | IT | Ops | Dev | Leadership | Platform Engineering | Travel | Movies | Always learning...'
+  keymon:
+    name: Hector Rivas
+    display_name: Hector Rivas
+    alias: Keymon
+    gravatar: 7148b1821188bbdd1edcb6a561fedfc8
+    twitter: thekeymon
+    email: hector.rivas@springer.com
+    github: keymon
+    bio: I do yak shaving on linux boxes
+  simon:
+    name: Simon Johansson
+    display_name: Simon Johansson
+    gravatar: c35be6b4c2eaab56aeafebbda3f6ecbd
+    twitter: KarlSimonJohan
+    github: simonjohansson
+    email: simon@simonjohansson.com
+    bio: I like music and computers.
+  koeb:
+    name: Alexander Köb
+    job_title: Platform Engineer
+    display_name: Alexander Köb
+    gravatar: cd122fd16a22f86839d0ec16e3880974
+    email: alexander.koeb@springer.com
+    twitter:
+    github: koebspringer
+    bio: 'DevOps | smartass | SciFi-lover | beer-snob that eats to much and moves to little'
+  katter:
+    name: Carsten Hiort
+    job_title: Platform Engineer
+    display_name: Carsten Hiort
+    alias: Katter
+    gravatar: 96e3edb3f903142c651c48b54146bf3c
+    email: carsten.hiort@springer.com
+    twitter: katterstrophe
+    github: katter
+    bio: 'Passionate father of two | Do it the Arch Way'
+  jose:
+    name: Jose Riguera
+    job_title: Platform Engineer
+    display_name: Jose Riguera
+    alias: J.R.
+    gravatar: 
+    email: jose.riguera@springer.com
+    twitter: jose_riguera
+    github: jriguera
+    bio: 'Openstack guru'
+  marc:
+    name: Marc Driessen 
+    job_title: Platform Engineer
+    display_name: Marc Driessen 
+    alias:  
+    gravatar: e2191d2ba882b055cd64604249807da9 
+    email: marc.driessena@springer.com
+    twitter: marcdriessen 
+    github: sprmarc 
+    bio: 'I am dutch'
+# Owner
 owner:
   name:           Platform Engineering
   avatar:         avatar.jpg
@@ -14,7 +84,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        springerpe
   facebook:       
-  github:         
+  github:         springerpe
   stackexchange:  
   linkedin:       
   instagram:      
@@ -22,9 +92,8 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
-
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-51131138-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -35,12 +104,19 @@ links:
   - title: Springer Devs Blog
     url: http://spiking-the-solution.tumblr.com
     external: true
-#  - title: 
-#    url: 
-#    external:
+  - title: JoinIT
+    url: http://joinit.springer.com
+    external: true
+  - title: Trello
+    url: http://www.trello.com
+    external: true
+  - title: HipChat
+    url: http://www.hipchat.com
+    external: true
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 pygments:    true
 markdown:    kramdown
