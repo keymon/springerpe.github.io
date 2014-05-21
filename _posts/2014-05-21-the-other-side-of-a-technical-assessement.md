@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-Have you ever though that your technical assessment can help you to attract the right people?
+Have you ever consider that your technical assessment can help you to attract the right people?
 
 Early last year I took a more active role in the recruiting process for a Systems Engineer - [sadly aka DevOps Engineer](http://www.infoq.com/news/2014/03/devops) - for the development team I was member of in [Springer](http://joinit.springer.com/). Specifically I was involved in the technical process, reviewing CV's and being part of the face to face technical interviews.
 
@@ -37,9 +37,9 @@ So far the experience has been quite positive. And I would like to share with yo
 
 We are techy folks, and we look for techy folks, and techy folks like getting their hands dirty. Obviously, **we must ask to write code that actually works and that we can evaluate**. 
 
-On the other hand we don't want them to spend time in tedious low value work so **we provide a working skeleton which works out of the box. This removes all the initial hassle and which provides the right context**.
+On the other hand we don't want them to spend time in tedious low value work so **we provide a working skeleton which works out of the box. This removes all the initial hassle and provides the right context**.
 
-Also, **the challenges and technologies should be relevant to the future position**, so one can get an idea of how the work will be. This does not mean include every possible tool and use case - for us that would be impossible ;) -, but just a representative subset.
+Also, **the challenges and technologies should be relevant to the future position**, so one can get an idea of how the work will be. This does not mean that you should include every possible tool and use case - for us that would be impossible ;) -, but just a representative subset.
 
 For this we use [vagrant](http://www.vagrantup.com/) and some [chef-solo](http://docs.opscode.com/chef_solo.html) configuration that installs a scala webapp. You only need to install vagrant and run `vagrant up` to get a working environment. 
 
@@ -48,7 +48,7 @@ For this we use [vagrant](http://www.vagrantup.com/) and some [chef-solo](http:/
 Learn the candidate's working style
 -----------------------------------
 
-[We use Scrum+Kanban internally]({% post_url 2014-05-10-how-we-work %}), and we want to learn the candidate's methodology and the steps they follow doing the tasks (thought I admit it's quite difficult). In that case **[Trello](http://trello.com) is the perfect tool to split and organize the tasks**. It also allows direct communication with the candidate using comments, and it is great to give them feedback in the reviewing.
+[We use Scrum+Kanban internally]({% post_url 2014-05-10-how-we-work %}), and we want to learn the candidate's methodology and the steps they follow doing the tasks (though I admit it's quite difficult). In that case **[Trello](http://trello.com) is the perfect tool to split and organize the tasks**. It also allows direct communication with the candidate using comments, and it is great to give them feedback in the reviewing.
 
 Aditionally, using **[git](http://git-scm.com/) allows us to understand their working style and [care for details](http://bit.ly/1kmXUF3)**. We use [bitbucket](http://bitbucket.org) that gives free hosting for private git repos.
 
