@@ -50,7 +50,7 @@ A more in depth look at how we have setup this board, with labels, tags and poin
 ###Reporting
 We are able to get our reports from Trello to a Google sheet, by using the Trello api and Google script. 
 
-![Burn Chart](/images/burn-chart.png "Emxample Burn-Chart") 
+![Burn Chart](/images/burn-chart.png "Example Burn-Chart") 
 {: .pull-right}
 We are able to create nice charts and share these with the relevant stakeholders as well. We use the Scrum for Trello plugin (link) to give points to stories, these point are collected in the script we have created.
 
