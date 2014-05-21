@@ -12,18 +12,18 @@ comments: true
 share: true
 ---
 
-Have you ever consider that your technical assessment can help you to attract the right people?
+Have you ever considered that your technical assessment can help you to attract the right people?
 
-Early last year I took a more active role in the recruiting process for a Systems Engineer - [sadly aka DevOps Engineer](http://www.infoq.com/news/2014/03/devops) - for the development team I was member of in [Springer](http://joinit.springer.com/). Specifically I was involved in the technical process, reviewing CV's and being part of the face to face technical interviews.
+Early last year I took a more active role in the recruiting process for a Systems Engineer - [sadly aka DevOps Engineer](http://www.infoq.com/news/2014/03/devops) - for the development team I was a member of at [Springer](http://joinit.springer.com/). Specifically I was involved in the technical process, reviewing CV's and being part of the face to face technical interviews.
 
 Soon I got myself in the skin of the candidates, and I recalled the multiple times I was on that side. One of the parts that I always found interesting was the *technical assessments*.
 
 My personal view of the technical assessment
 ----------------------------------
 
-Usually the main goal of these assessments is just filter out candidates to reduce the time "wasted" by your engineers and, maybe, provide some context for some questioning later. I also think that **prompt feedback is quite a fair point**, but IMHO these assessments are much more than that.
+Usually the main goal of these assessments is just to filter out candidates to reduce the time "wasted" by your engineers and, maybe, provide some context for some questioning later. I also think that **prompt feedback is quite a fair point**, but IMHO these assessments are much more than that.
 
-When I did these tests as a candidate I was wondering about the job, drawing a picture of how much they care about recruiting, how skilled more or less the team could be, which technologies they used or even how interesting the position could be. All of it just based on some technical tasks.
+When I did these tests as a candidate I was wondering about the job, drawing a picture of how much they care about recruiting, how skilled more or less the team could be, which technologies they used, or even how interesting the position could be. All of it just based on some technical tasks.
 
 These tests are usually the very first contact of the candidate with the engineering team and **the candidate will also evaluate the position and your team based on these assessments**. With that in mind, the technical assessment is even more important than the job description. 
 
@@ -78,16 +78,16 @@ Finally, recruiting is a marketing process. **You need to be able to share a sim
 How was our experience?
 -----------------------
 
-So far the feedback was quite positive. Most of the candidates found it interesting and several of them confirmed that they actually got interested in the position mainly thanks to it. Two of these are currently working with us and I can tell you they are great professionals :). 
+So far the feedback has been quite positive. Most of the candidates found it interesting and several of them confirmed that they actually got interested in the position mainly thanks to it. Two of these are currently working with us and I can tell you they are great professionals :). 
 
-There was of course some good criticism: It might be too long and time consuming for somebody not familiar with the tools, but again: we want skilled people and people able to learn... and learning is never for free. In some cases there were some problems like not having access to a Linux/MacOSX box to run it, but we expect them to workaround such issues. Others didn't like the chosen tools (e.p. chef), but they are free to propose another stack if it's justified.
+Of course there have been some good criticism: It might be too long and time consuming for somebody not familiar with the tools, but again: we want skilled people and people able to learn... and learning is never for free. In some cases there were some problems like not having access to a Linux/MacOSX box to run it, but we expect people to workaround such issues. Others didn't like the chosen tools (e.g. chef), but they are free to propose another stack if it's justified.
 
-Also, some people didn't like being asked to do it before knowing more about the job and being sure it was worth it. To be sincere I still don't really know when is the right moment to ask to complete it, before or after a first interview.
+Also, some people didn't like being asked to do it before knowing more about the job and being sure it was worth it. To be sincere I still don't really know when is the right moment to ask someone to complete it, before or after a first interview.
 
 Feel free to use it!
 -------------------
 
-Please feel free to use these ideas in your own assessment. If you are looking for a Systems Engineer, [as we do]({% post_url 2014-05-16-we-are-hiring %}), you can reuse this implementation, but **please change the tasks to fulfill**. For instance you can ask to use [docker](https://www.docker.io/) to build a deployment system, [dokku](https://github.com/progrium/dokku) for a simple PaaS, setup some specific service like an IRC server, fix some misconfiguration, use puppet...
+Please feel free to use these ideas in your own assessment. If you are looking for a Systems Engineer, [as we are]({% post_url 2014-05-16-we-are-hiring %}), you can reuse this implementation, but **please change the tasks to fulfill**. For instance you can ask to use [docker](https://www.docker.io/) to build a deployment system, [dokku](https://github.com/progrium/dokku) for a simple PaaS, setup some specific service like an IRC server, fix some misconfiguration, use puppet...
 
 For other positions, like developers, a codebase with tests and integrated with a CI system like [travis](https://travis-ci.org/) can do the trick. 
 
@@ -98,6 +98,6 @@ As you can imagine, [we are recruiting]({% post_url 2014-05-16-we-are-hiring %})
 
 So don't doubt to [check out our assessment](https://trello.com/b/5qMF0d5A/springer-platform-engineer-assessment). 
 
-Of course, there are also [other open positions for other roles in Springer](http://joinit.springer.com/#join-our-team).
+Of course, there are also [other open positions in Springer](http://joinit.springer.com/#join-our-team).
 
 *-- by Hector Rivas (aka Keymon)*
