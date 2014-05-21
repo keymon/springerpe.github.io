@@ -43,6 +43,15 @@ authors:
     twitter:
     github: koebspringer
     bio: 'DevOps | smartass | SciFi-lover | beer-snob that eats to much and moves to little'
+  katter:
+    name: Carsten Hiort
+    job_title: Platform Engineer
+    display_name: Carsten Hiort
+    gravatar: c5888020c920f407211d297270493501
+    email: carsten.hiort@springer.com
+    twitter: katterstrophe
+    github: katter
+    bio: 'Passionate father of two | Do it the Arch Way'
 # Owner
 owner:
   name:           Platform Engineering
