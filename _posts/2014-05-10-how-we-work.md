@@ -54,10 +54,12 @@ We are able to get our reports from Trello to a Google sheet, by using the Trell
 {: .pull-right}
 We are able to create nice charts and share these with the relevant stakeholders as well. We use the Scrum for Trello plugin (link) to give points to stories, these point are collected in the script we have created.
 
-If you are interested in how we managed to pull and store data from Trello, please read our detailed post about the script we created.
+If you are interested in how we managed to pull and store data from Trello, please check back soon for our detailed post about the script we created.
 
 ###Chat/IM
-To keep in touch with each other we use group instant messaging, at the moment we use [HipChat](http://www.hipchat.com) from [Atlassian](http://www.atlassian.com). We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on github here.
+To keep in touch with each other we use group instant messaging, at the moment we use [HipChat](http://www.hipchat.com) from [Atlassian](http://www.atlassian.com). We have several rooms in HipChat and we have it open all day long actually. We also have a public room, we use as a “consultation” room for other teams who want to discuss something with us or have simple request. We have to admit we all <3 HipChat and it is getting bigger within our company. Especially after we automated the user management, of which you can find the code on [github](https://github.com/SpringerSBM/hipkeeper).
+Another nice thing about HipChat is the integrations, at the moment we have hooks for bitbucket and github, so we are always notified when someone commits some code or whenever there is a pull request.
+Of course we also created a bot, based on hubot, which is always good fun to have it sneak into rooms and create some confusion :-)
 
 ###Travels
 We also travel regularly to these office to meetup with the team and also collaborate with other teams. We recently organised a hackathon in Dordrecht, of which we will blog about soon :-)
