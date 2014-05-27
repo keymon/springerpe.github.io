@@ -5,7 +5,7 @@ title: 'The Bullshit of JefOtte'
 category: process
 layout: post
 image: 
-  feature: cocktails.jpg
+  feature: cocktails.png
 published: true
 tags: team bullshit devops agile distributed
 comments: true

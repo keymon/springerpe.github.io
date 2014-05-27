@@ -5,7 +5,7 @@ title: About the Platform Engineering Team
 tags:
 comments: false
 image:
-  feature: cocktails.jpg
+  feature: cocktails.png
 ---
 
 ###Who are we? [<-- meet the team](/team/)

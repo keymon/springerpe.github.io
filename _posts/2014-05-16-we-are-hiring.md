@@ -5,7 +5,7 @@ title: 'We are hiring!!'
 category: recruitment
 layout: post
 image: 
-  feature: lego-game.jpg
+  feature: lego-game.png
 published: true
 tags:  platform development systems engineering devops agile
 comments: true
