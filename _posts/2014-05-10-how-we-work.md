@@ -7,7 +7,7 @@ layout: post
 image: 
   feature: trello-banner.png
 published: true
-tags: scrum kanban srum-ban scrumban agile distributed team
+tags: scrum kanban scrum-ban scrumban agile distributed team
 comments: true
 share: true
 ---
