@@ -31,20 +31,12 @@ authors:
   simon:
     name: Simon Johansson
     display_name: Simon Johansson
+    alias: NoTouch!
     gravatar: c35be6b4c2eaab56aeafebbda3f6ecbd
     twitter: KarlSimonJohan
     github: simonjohansson
     email: simon@simonjohansson.com
     bio: I like music and computers.
-  koeb:
-    name: Alexander Köb
-    job_title: Platform Engineer
-    display_name: Alexander Köb
-    gravatar: cd122fd16a22f86839d0ec16e3880974
-    email: alexander.koeb@springer.com
-    twitter:
-    github: koebspringer
-    bio: 'DevOps | smartass | SciFi-lover | beer-snob that eats to much and moves to little'
   katter:
     name: Carsten Hiort
     job_title: Platform Engineer
@@ -69,7 +61,7 @@ authors:
     name: Marc Driessen 
     job_title: Platform Engineer
     display_name: Marc Driessen 
-    alias:  
+    alias: 
     gravatar: e2191d2ba882b055cd64604249807da9 
     email: marc.driessena@springer.com
     twitter: marcdriessen 
@@ -79,6 +71,7 @@ authors:
     name: Josef Hoerandtner
     job_title: Platform Engineer
     display_name: Josef Hoerandtner
+    alias: 
     gravatar: 4177dfb6a675547dcce2370f43b3a64f
     email: josef.hoerandtner@springer.com
     twitter: jhoerandtner
