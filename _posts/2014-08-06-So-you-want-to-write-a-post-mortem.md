@@ -12,49 +12,54 @@ comments: true
 share: true
 ---
 
+Time ago I wrote this guide as a guide for my colleagues (ops or devs) to 
+write a good postmortem. I think it is worth it to share with everybody, so here 
+it goes my shameless copy&paste  
+
 So you want to write a post-mortem...
 =====================================
 
-Time ago I wrote this guide to help my colleagues (ops or devs) to write a 
-good postmortem. I think it is worth it to share with everybody. 
+Writing a good post-mortem could be considered an art. The postmortem has 
+clear goals and how you write it will make a difference.
 
-Writing a good post-mortem is almost art. Here we will explain some basic guidelines to get it done.
+Here we will explain some basic guidelines that IMHO are important in a 
+ good postmortem.
 
 You must understand and believe why you write it
 ------------------------------------------------
 
-Why should we write a post-mortem? 
+Ask yourself: Why should we write a post-mortem?  Is it just because there is an over-worried ops guy bitching you to get it done ASAP? 
+Is it because the [SOP](http://en.wikipedia.org/wiki/Standard_operating_procedure) says it so? Or is there any actual value there? 
 
-Is just because there is an over-worried ops guy bitching you to get it done?  Or is there any actual value there? 
+Actually, a good post-mortem tries to achieve these goals:
 
-The post-mortem tries to achieve these goals:
+-   **Recover (or even improve) the trust of the stakeholders.** Transparency works! ( [http://www.transparentuptime.com/2010/07/why-transparency-works.html](http://www.transparentuptime.com/2010/07/why-transparency-works.html))
 
--   **Recover (or even improve) the trust of the stakeholders . **Transparency works! ( [http://www.transparentuptime.com/2010/07/why-transparency-works.html](http://www.transparentuptime.com/2010/07/why-transparency-works.html))
-    We are *committed*to deliver a *stable, high-available and quality platform,* and when there is a problem, or a feature is not working as expected, we are failing to our stakeholders, and they know that.
-    But even worse, if we don't admit failure and show that we are under control and learning and fixing, everybody will stop trusting us, even our own team.
--   **Learn and improve** It is OK to fail, but is not OK not learn from that. Every failure is a great opportunity to learn and improve our products and workflow.
--   **Don't repeat mistakes**, you don't want to repeat one time and other the same mistakes and problems. Keeping everything documented will help here.
--   **Keep everybody updated** when there is a outage, usually only affected users and who fixed it are aware of it. But is important that all the team, and the business, understands and visualizes the real status and health of our projects.
+    We are *committed*to deliver a *stable, high-available and quality platform,* and when there is a problem, or a feature is not working as expected, we are failing to our stakeholders... and they are the most important stakeholders the ones who notice it more.
+    But even worse, if we don't admit failure and show that we are under control and learning and fixing, everybody will stop trusting us, even our own team members.
+-   **Learn and improve** It is OK to fail, but **it is not OK not to learn from failure**. Every failure is a great opportunity to learn and improve our products and workflow.
+-   **Don't repeat mistakes**, you don't want to repeat one time after other other the same mistakes and problems. Keeping everything documented will help here.
+-   **Keep everybody updated** when there is a outage, usually only affected users and whoever did fix it are aware of it. But is important that all the team (and the business) understands and gets visibility of the real status and health of projects and products.
 
-Know your readers
------------------
+Know who are your readers
+-------------------------
 
-You must write your post-mortem knowing who is going to read it:
+You must write your post-mortem thinkin on who is going to read it:
 
--   **End users and Customer Services:** They want to know which features were affected, how the company is working to prevent this problem, how to workaround the issue, how to identify it if  it happens again.
--   **Business stakeholders, BAs, PO:** They want to know what was the business impact, which part of the project caused the problem, why it happened, what we should prioritize to fix it,
--   **Developers:** They need to know how to reproduce the problem, what are the login messages, technically what happened.
+-   **End users and Customer Services:** They want to know which features were affected, how the company is working to prevent this problem, how to workaround the issue, how to identify it if it happens again.
+-   **Business stakeholders, BAs, PO:** They want to know what was the business impact, which part of the project caused the problem, why it happened, what we should prioritize to fix it.
+-   **Developers:** They need to know how to reproduce the problem, what are the log messages, the application behaviour, interactions. In general what happened technically.
 -   **QA:** The need to know how they can identify future problems like this, technically what happened, etc.
--   **24x7 support:** They need to know how identify and diagnose the problem, which monitoring is needed, additional documentation/runbooks needed.
+-   **24x7 support:** They need to know how identify and diagnose the problem, which monitoring is needed, how to mitigate it, additional documentation/runbooks required.
 -   **Infrastructure/Support teams (network, sysops, platform engineering):** They need to know if they were related in the outage, how they can help to improve/avoid the situation.
--   **Other teams:** They want to learn from our experiences.
+-   **Other teams and the community:** They want to learn from our experiences.
 
 What the post-mortem should cover
 ---------------------------------
 
 In this blog post, they cover the requisites and expectations of a good post-mortem: [http://www.transparentuptime.com/2010/03/guideline-for-postmortem-communication.html](http://www.transparentuptime.com/2010/03/guideline-for-postmortem-communication.html)
 
-I will copy it here.
+I will quote it it here.
 
 ### Prerequisites:
 
@@ -95,8 +100,13 @@ Some readings...
 Some videos
 -----------
 
--   Talk from Lenny Rachitsky (Webmetrics/Neustar), "The Upside of Downtime: How to Turn a Disaster Into an Opportunity": https://www.youtube.com/watch?v=6MF2Pu6IW3Q
--   Velocity 2012: Richard Cook, "How Complex Systems Fail": https://www.youtube.com/watch?v=2S0k12uZR14
+-   [Talk from Lenny Rachitsky (Webmetrics/Neustar), "The Upside of Downtime: How to Turn a Disaster Into an Opportunity"](https://www.youtube.com/watch?v=6MF2Pu6IW3Q) 
+
+{% youtube 6MF2Pu6IW3Q %} 
+
+-   [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14)
+
+{% youtube 2S0k12uZR14 %} 
 
 Some nice post-mortems and status pages
 ---------------------------------------
