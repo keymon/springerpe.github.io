@@ -102,11 +102,11 @@ Some videos
 
 -   [Talk from Lenny Rachitsky (Webmetrics/Neustar), "The Upside of Downtime: How to Turn a Disaster Into an Opportunity"](https://www.youtube.com/watch?v=6MF2Pu6IW3Q) 
 
-{% youtube 6MF2Pu6IW3Q %} 
+<iframe width="560" height="315" src="//www.youtube.com/embed/6MF2Pu6IW3Q" frameborder="0" allowfullscreen></iframe>
 
 -   [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14)
 
-{% youtube 2S0k12uZR14 %} 
+<iframe width="560" height="315" src="//www.youtube.com/embed/2S0k12uZR14" frameborder="0" allowfullscreen></iframe> 
 
 Some nice post-mortems and status pages
 ---------------------------------------
