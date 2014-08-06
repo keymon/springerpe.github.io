@@ -35,7 +35,7 @@ Actually, a good post-mortem tries to achieve these goals:
 
 -   **Recover (or even improve) the trust of the stakeholders.** Transparency works! ( [http://www.transparentuptime.com/2010/07/why-transparency-works.html](http://www.transparentuptime.com/2010/07/why-transparency-works.html))
 
-    We are *committed*to deliver a *stable, high-available and quality platform,* and when there is a problem, or a feature is not working as expected, we are failing to our stakeholders... and they are the most important stakeholders the ones who notice it more.
+    We are *committed* to deliver a *stable, high-available and quality platform,* and when there is a problem, or a feature is not working as expected, we are failing to our stakeholders... and they are the most important stakeholders the ones who notice it more.
     But even worse, if we don't admit failure and show that we are under control and learning and fixing, everybody will stop trusting us, even our own team members.
 -   **Learn and improve** It is OK to fail, but **it is not OK not to learn from failure**. Every failure is a great opportunity to learn and improve our products and workflow.
 -   **Don't repeat mistakes**, you don't want to repeat one time after other other the same mistakes and problems. Keeping everything documented will help here.
