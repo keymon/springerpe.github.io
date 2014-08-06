@@ -1,5 +1,5 @@
 ---
-author: hector
+author: keymon
 date: 2014-08-01
 title: 'So, you want to write a post-mortem? Our internal guide for post-mortems'
 category: 2penny

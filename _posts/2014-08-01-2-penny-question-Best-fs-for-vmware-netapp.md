@@ -1,8 +1,8 @@
 ---
 author: jose
 date: 2014-08-01
-title: '2 Cents Q&A: Experiences with Linux filesystems on VMWare+Netapp'
-category: 2cents
+title: '2 Penny Q&A: Experiences with Linux filesystems on VMWare+Netapp'
+category: 2penny
 layout: post
 image: 
   feature: DevOpsDaysLogo.png
@@ -50,7 +50,7 @@ For NFS and Netapp I think it is better if you go to the netapp support website,
 But remember if you are running a VM, in the end it is a process on another server competing for shared resources ...
 The key is the design of the application, the global architecture to scale, using distributed services, etc.
 
-That's my 2 cents, use the comments if you have a different view or if I have forgotten other options...
+That's my two penny post, use the comments if you have a different view or if I have forgotten other options...
 
 
 *-- by Jose Riguera*
