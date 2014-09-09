@@ -7,7 +7,7 @@ layout: post
 image: 
   feature: cocktails.png
 published: true
-tags: team springe dordrecht recruitment
+tags: team springer dordrecht recruitment
 comments: true
 share: true
 ---
@@ -18,7 +18,7 @@ On my first week with the team, we went to [Dordrecht](https://www.google.co.uk/
 
 **Train Tuesday**
 
-Sitting with Josef on the train, I was trying to solve the PE Assessment Tasks while he gives me hints. I must say, these tech tasks are very tricky (thank you, Hector, for making my brain turn to Jello). I would share with you some of the sneaky bits, but, alas, I cannot, in case you, dear reader, are also trying to get through the tech test. I can say this, though: Read the README’s! Obvious as it is, we do tend to forget, only to be reminded by Professor Google that the answer is RIGHT THERE. ;)
+Sitting with Josef on the train, I was trying to solve the PE Assessment Tasks while he gave me hints. I must say, these tech tasks are very tricky (thank you, Hector, for making my brain turn to Jell-o). I would share with you some of the sneaky bits, but, alas, I cannot-- in case you, dear reader, are also trying to get through the tech test. I can say this, though: Read the README’s! Obvious as it is, we do tend to forget, only to be reminded by Professor Google that the answer is RIGHT THERE. ;)
 
 ![Springer in Dordrecht]({{ site.url }}/images/springer.png)
 
@@ -32,14 +32,14 @@ For dinner, we were treated to a very nice barbecue at Daniel’s place. I wish 
 
 **Hackday Wednesday**
 
-We were supposed to be split into teams, but because of a lack of resources (humans), we decided to just join forces to become one super magnificent PE machine (think Power Rangers when they morph in, now double that). The men stayed until the wee hours of the morning researching, learning, testing all the possible solutions for the hackathon goal. Some of the technologies mentioned are: 
-* [Cobbler](http://www.cobblerd.org/)
-* [FAI](http://fai-project.org/) 
-* [MaaS](https://maas.ubuntu.com/)
-* [Open Crowbar](http://crowbar.github.io/home.html)
-* [Ansible](http://www.ansible.com/)
-* [Razor](http://puppetlabs.com/solutions/next-generation-provisioning)
-* [FOG Project](http://www.fogproject.org/)
+We were supposed to be split into teams, but because of a lack of resources (humans), we decided to just join forces to become one super magnificent PE machine (think Power Rangers when they morph in, now double that). The men stayed until the wee hours of the morning researching, learning, testing all the possible solutions for the hackathon goal. Some of the technologies mentioned were: 
+- [Cobbler](http://www.cobblerd.org/)
+- [FAI](http://fai-project.org/) 
+- [MaaS](https://maas.ubuntu.com/)
+- [Open Crowbar](http://crowbar.github.io/home.html)
+- [Ansible](http://www.ansible.com/)
+- [Razor](http://puppetlabs.com/solutions/next-generation-provisioning)
+- [FOG Project](http://www.fogproject.org/)
 
 **Train Thursday**
 
