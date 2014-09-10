@@ -9,7 +9,7 @@ image:
 published: true
 tags: ops tools packaging
 comments: true
-share: false
+share: true
 ---
 
 Last week people from three different teams and two locations met in the Dordrecht office for a [hackathon](http://en.wikipedia.org/wiki/Hackathon) with the modest objective of "Provisioning the Future".
@@ -18,7 +18,7 @@ My new colleague Jorja has written an excellent post about her experiences durin
 Bare-metal Provisioning
 -----------------------
 
-Although we have considered multiple tools for our bare-metal provisioning process, we ultimitely decided to use [Cobbler](http://www.cobblerd.org/).
+Although we have considered multiple tools for our bare-metal provisioning process, we ultimately decided to use [Cobbler](http://www.cobblerd.org/).
 Since we ran into several problems during the installation of the latest version on Ubuntu 14.04, I thought it's worth sharing our experiences and used workarounds.
 
 How to install Cobbler 2.6.5 on Ubuntu 14.04 LTS
@@ -48,19 +48,22 @@ Startup error "ImportError: No module named urlgrabber":
 ```
 sudo apt-get install python-urlgrabber
 ```
-Apache error "Invalid command 'WSGIScriptAliasMatch" 
+
+Apache error "Invalid command 'WSGIScriptAliasMatch": 
 
 ```
 sudo apt-get install libapache2-mod-wsgi
 ```
-And finally installing missing Django package, fixing error "ImportError: No module named django.core.handlers.wsgi":
+
+And finally installing the missing Django package, fixing error "ImportError: No module named django.core.handlers.wsgi":
 
 ```
 sudo apt-get install python-django
 ```
 
-I have created a [pull request](https://github.com/cobbler/cobbler/pull/1207) that adds these runtime dependencies to the debian build. The request is still pending, but I hope that it will fix this problem for future releases.
+I have created a [pull request](https://github.com/cobbler/cobbler/pull/1207) that adds these runtime dependencies to the Debian build. The request is still pending, but I hope that it will fix this problem for future releases.
 
+*Update: Pull request was already accepted and merged.*
 
 Workaround 2: Fixing Apache configuration
 ------------------------------------
@@ -90,13 +93,13 @@ a2enmod proxy_http
 Workaround 4: Generating Django SECRET_KEY
 ------------------------------------------
 According to [this issue]("https://github.com/cobbler/cobbler/issues/546") this should only be required, when installing from source. I have not checked the details, so this might be caused by the missing packages during the installation process.
-This workaround is based on a solution posted on [Stackoverfow](http://stackoverflow.com/questions/15782837/sed-to-replace-secret-key-in-django-settings-file-introduces-garbage):
+This workaround is based on a solution posted on [Stack Overflow](http://stackoverflow.com/questions/15782837/sed-to-replace-secret-key-in-django-settings-file-introduces-garbage):
 ```
 SECRET_KEY=$(python -c 'import re;from random import choice; import sys; sys.stdout.write(re.escape("".join([choice("abcdefghijklmnopqrstuvwxyz0123456789^&*(-_=+)") for i in range(100)])))')
 sudo sed --in-place "s/^SECRET_KEY = .*/SECRET_KEY = '${SECRET_KEY}'/" /usr/share/cobbler/web/settings.py
 ```
 
-Finally: Configuring Cobbler
+Finally: Basic configuration
 -------------------
 
 Replacing 127.0.0.1 in the cobbler settings file with the actual IP:
@@ -112,3 +115,9 @@ Restart cobblerd and apache2 and enjoy our new cobbler server:
 sudo service apache2 restart
 sudo service cobblerd restart
 ```
+
+Epilogue
+--------
+
+Altogether none of this problems was really a big deal, but still it took us some time to figure out the details.
+So we decided to spent even a bit more and to write this blog post, with the indentation that it might be useful for others who are facing the same issues. And of course we are happy to contribute a bit back to the cobbler project, since it is and important component of our provisioning toolchain.
