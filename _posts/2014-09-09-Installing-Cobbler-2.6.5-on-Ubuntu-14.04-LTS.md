@@ -29,37 +29,39 @@ I am not sure, when the project started to create Debian/Ubuntu packages, but th
 
 Adding the repository in Ubuntu:
 
-```
+{% highlight bash %}
 wget -qO - http://download.opensuse.org/repositories/home:/libertas-ict:/cobbler26/xUbuntu_14.04/Release.key | sudo apt-key add -
 sudo add-apt-repository "deb http://download.opensuse.org/repositories/home:/libertas-ict:/cobbler26/xUbuntu_14.04/ ./"
-```
+{% endhighlight %}
+
 
 Installing Cobbler:
-```
+
+{% highlight bash %}
 sudo apt-get update
 sudo apt-get install cobbler
-```
+{% endhighlight %}
 
 Workaround 1: Installing addional required packages
 -----------------------------------------------
 
 Startup error "ImportError: No module named urlgrabber":
 
-```
+{% highlight bash %}
 sudo apt-get install python-urlgrabber
-```
+{% endhighlight %}
 
 Apache error "Invalid command 'WSGIScriptAliasMatch": 
 
-```
+{% highlight bash %}
 sudo apt-get install libapache2-mod-wsgi
-```
+{% endhighlight %}
 
 And finally installing the missing Django package, fixing error "ImportError: No module named django.core.handlers.wsgi":
 
-```
+{% highlight bash %}
 sudo apt-get install python-django
-```
+{% endhighlight %}
 
 I have created a [pull request](https://github.com/cobbler/cobbler/pull/1207) that adds these runtime dependencies to the Debian build. The request is still pending, but I hope that it will fix this problem for future releases.
 
@@ -70,7 +72,7 @@ Workaround 2: Fixing Apache configuration
 
 Background: Debian is changing the [Apache2 directory structure for the next version](https://wiki.debian.org/Apache/PackagingFor24), but since [Ubuntu 14.04 LTS is based on Debian unstable](https://wiki.ubuntu.com/LTS) it is already using the new structure. Please see the created [github issue](https://github.com/cobbler/cobbler/issues/1208) for the current status.
 
-```
+{% highlight bash %}
 # moving the config to correct directory 
 mv /etc/apache2/conf.d/cobbler.conf /etc/apache2/conf-available/
 mv /etc/apache2/conf.d/cobbler_web.conf /etc/apache2/conf-available/
@@ -78,43 +80,44 @@ mv /etc/apache2/conf.d/cobbler_web.conf /etc/apache2/conf-available/
 cd /etc/apache2/conf-enabled
 ln -s ../conf-available/cobbler.conf .
 ln -s ../conf-available/cobbler_web.conf .
-```
+{% endhighlight %}
 
 Workaround 3: Loading required Apache modules
 ----------------------------------------------
 
 This step is also required on [openSUSE](http://www.cobblerd.org/manuals/2.6.0/2/2/3_-_openSUSE.html) at the moment, should be IMHO done during the package installation:
 
-```
+{% highlight bash %}
 a2enmod proxy
 a2enmod proxy_http
-```
+{% endhighlight %}
 
 Workaround 4: Generating Django SECRET_KEY
 ------------------------------------------
 According to [this issue]("https://github.com/cobbler/cobbler/issues/546") this should only be required, when installing from source. I have not checked the details, so this might be caused by the missing packages during the installation process.
 This workaround is based on a solution posted on [Stack Overflow](http://stackoverflow.com/questions/15782837/sed-to-replace-secret-key-in-django-settings-file-introduces-garbage):
-```
+
+{% highlight bash %}
 SECRET_KEY=$(python -c 'import re;from random import choice; import sys; sys.stdout.write(re.escape("".join([choice("abcdefghijklmnopqrstuvwxyz0123456789^&*(-_=+)") for i in range(100)])))')
 sudo sed --in-place "s/^SECRET_KEY = .*/SECRET_KEY = '${SECRET_KEY}'/" /usr/share/cobbler/web/settings.py
-```
+{% endhighlight %}
 
 Finally: Basic configuration
 -------------------
 
 Replacing 127.0.0.1 in the cobbler settings file with the actual IP:
 
-```
+{% highlight bash %}
 IP_ETH0=`ifconfig eth0 | grep 'inet addr:' | cut -d":" -f2 | cut -d" " -f1`
 sudo sed -i "s/127\.0\.0\.1/${IP_ETH0}/" /etc/cobbler/settings
-```
+{% endhighlight %}
 
 Restart cobblerd and apache2 and enjoy your new cobbler server:
 
-```
+{% highlight bash %}
 sudo service apache2 restart
 sudo service cobblerd restart
-```
+{% endhighlight %}
 
 Epilogue
 --------
