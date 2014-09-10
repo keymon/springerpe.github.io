@@ -109,7 +109,7 @@ IP_ETH0=`ifconfig eth0 | grep 'inet addr:' | cut -d":" -f2 | cut -d" " -f1`
 sudo sed -i "s/127\.0\.0\.1/${IP_ETH0}/" /etc/cobbler/settings
 ```
 
-Restart cobblerd and apache2 and enjoy our new cobbler server:
+Restart cobblerd and apache2 and enjoy your new cobbler server:
 
 ```
 sudo service apache2 restart
