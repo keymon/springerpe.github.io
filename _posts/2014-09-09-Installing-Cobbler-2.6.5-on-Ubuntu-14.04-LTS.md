@@ -120,4 +120,4 @@ Epilogue
 --------
 
 Altogether none of this problems was really a big deal, but still it took us some time to figure out the details.
-So we decided to spent even a bit more and to write this blog post, with the indentation that it might be useful for others who are facing the same issues. And of course we are happy to contribute a bit back to the cobbler project, since it is and important component of our provisioning toolchain.
+So we decided to spent even a bit more to write this blog post, with the indentation that it might be useful for others who are facing the same issues. And of course we are happy to contribute a bit back to the cobbler project, since it is (or will become) an important and central component of our provisioning toolchain.
