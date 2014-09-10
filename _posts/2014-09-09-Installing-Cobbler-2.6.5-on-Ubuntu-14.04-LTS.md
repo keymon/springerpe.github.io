@@ -124,3 +124,7 @@ Epilogue
 
 Altogether none of these problems was really a big deal, but still it took us some time to figure out the details.
 So we decided to spent even a bit more to write this blog post, with the indentation that it might be useful for others who are facing the same issues. And of course we are happy to contribute a bit back to the cobbler project, since it is (or will become) an important and central component of our provisioning toolchain.
+
+![The Cobbler]({{ site.url }}/images/the_cobbler.jpg)
+*"[the cobbler](https://flic.kr/p/Z8Sax)" by [changó](https://www.flickr.com/people/48989364@N00/) on Flickr (shared under CC)*
+
