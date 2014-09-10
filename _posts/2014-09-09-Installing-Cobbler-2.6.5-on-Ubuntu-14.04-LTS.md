@@ -37,7 +37,7 @@ sudo add-apt-repository "deb http://download.opensuse.org/repositories/home:/lib
 Installing Cobbler:
 ```
 sudo apt-get update
-sudo apt-get isntall cobbler
+sudo apt-get install cobbler
 ```
 
 Workaround 1: Installing addional required packages
