@@ -24,7 +24,7 @@ Since we ran into several problems during the installation of the latest version
 How to install Cobbler 2.6.5 on Ubuntu 14.04 LTS
 =====================================
 
-Ubuntu 14.04 is shipped with [Cobbler 2.4.1](http://www.cobblerd.org/posts/2014/02/03/cobbler_2.4.1_released.html), but since the Cobbler project is quite active in the last few month, we decided to use the latest packages provided by cobberd.org.
+Ubuntu 14.04 is shipped with [Cobbler 2.4.1](http://www.cobblerd.org/posts/2014/02/03/cobbler_2.4.1_released.html), but since the Cobbler project is quite active in the last few months, we decided to use the latest packages provided by cobberd.org.
 I am not sure, when the project started to create Debian/Ubuntu packages, but the [documentation]("http://www.cobblerd.org/manuals/2.6.0/2/2/4_-_Debian_and_Ubuntu.html") is not in place yet.
 
 Adding the repository in Ubuntu:
