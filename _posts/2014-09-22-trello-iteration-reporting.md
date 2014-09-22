@@ -27,46 +27,50 @@ According to its [page](http://www.google.com/script/start/), “Google Apps Scr
 
 We have created an apps script that collates data and creates the following data sheets based on the Trello cards:
 
+####Iteration Details
 ![Iteration details]({{ site.url }}/images/iterationdetails.png)
 
-- **Iteration Details**
   - Calculates the story points for each label in each list
 
+####Daily Status
 ![Daily status]({{ site.url }}/images/dailystatus.png)
 
-- **Daily Status**
   - Calculates the daily story points based for: Left in Iteration, Work in Progress, Completed Work
 
+####Hash Tags Data
 ![Hash Tags Data]({{ site.url }}/images/hashtagsdata.png)
 
-- **Hash Tags Data**
   - Lists the hash tags used in cards and the equivalent total story points for each hash tag
 
 After creating the data sheets, the script then creates the following charts:
 
+####Total vs Done
 ![Total vs Done]({{ site.url }}/images/totalvsdone.png)
 
-- **Total vs Done**
   - A bar chart that compares the total story points and completed work for each label. This is based on the Iteration Details sheet.
 
+
+####Total Work Breakdown
 ![Total Work Breakdown]({{ site.url }}/images/totalworkbreakdown.png)
 
-- **Total Work Breakdown**
   - A pie chart that represents the percentage of each label for the total work to be done in this iteration. This is based on the Iteration Details sheet.
 
+
+####Completed Work Breakdown
 ![Completed Work Breakdown]({{ site.url }}/images/completedworkbreakdown.png)
 
-- **Completed Work Breakdown**
   - A pie chart that represents the percentage of each label for the completed work in this iteration. This is based on the Iteration Details sheet.
 
+
+####Burn Up - Burn Down
 ![Burn Up - Burn Down]({{ site.url }}/images/burnupburndown.png)
 
-- **Burn Up - Burn Down**
   - A line chart that graphs the story points for: Left in Iteration, Work in Progress, Completed Work. This is based on the Daily Status sheet.
 
+
+####Hash Tags Points
 ![Hash Tags Points]({{ site.url }}/images/hashtagspoints.png)
 
-- **Hash Tags Points**
   - A bar chart that compares the hashtags based on their story points. This is based on the Hash Tags Data sheet.
 
 Finally, the apps script is open source, because we believe that the best technologies are products of collaboration.
