@@ -69,7 +69,7 @@ After creating the data sheets, the script then creates the following charts:
 - **Hash Tags Points**
   - A bar chart that compares the hashtags based on their story points. This is based on the Hash Tags Data sheet.
 
-Finally, the apps script is open source, because we believe that the best technologies is are products of collaboration.
+Finally, the apps script is open source, because we believe that the best technologies are products of collaboration.
 
 We felt your excitement building while reading through this blog post, so without further ado, we present to you… the **[Trello Iteration Reporting apps script](https://github.com/SpringerPE/trello-iteration-reporting-apps-script)**!
 
