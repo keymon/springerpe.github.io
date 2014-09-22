@@ -73,8 +73,9 @@ Finally, the apps script is open source, because we believe that the best techno
 
 We felt your excitement building while reading through this blog post, so without further ado, we present to you… the **[Trello Iteration Reporting apps script](https://github.com/SpringerPE/trello-iteration-reporting-apps-script)**!
 
+This is the part where you freak out and celebrate :)
 
-![You get an apps script!](http://i60.tinypic.com/oqius0.jpg)
+![Freak out!!](http://i1254.photobucket.com/albums/hh608/breatheonme85/oprah_favethings.gif)
 
 
 
