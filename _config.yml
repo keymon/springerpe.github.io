@@ -134,4 +134,4 @@ pygments:    true
 markdown:    kramdown
 
 # Amount of posts to show on home page
-paginate: 1
+paginate: 4

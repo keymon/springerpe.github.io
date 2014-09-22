@@ -18,9 +18,11 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
-  <div class="entry-content">
-    {{ post.content }}
-  </div><!-- /.entry-content -->
+
+    <div class="entry-content">
+      <p>{{ post.content | strip_html | truncatewords:50}} <a class="read-more-btn" href="{{ post.url }}">Continue reading</a></p>
+    </div><!-- /.entry-content -->
+
 </article><!-- /.hentry -->
 {% endfor %}
 
