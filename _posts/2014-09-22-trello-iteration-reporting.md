@@ -29,18 +29,18 @@ We have created an apps script that collates data and creates the following data
 
 ![Iteration details]({{ site.url }}/images/iterationdetails.png)
 
-- **Iteration details**
-  - calculates the story points for each label in each list
+- **Iteration Details**
+  - Calculates the story points for each label in each list
 
 ![Daily status]({{ site.url }}/images/dailystatus.png)
 
-- **Daily status**
-  - calculates the daily story points based for: Left in Iteration, Work in Progress, Completed Work
+- **Daily Status**
+  - Calculates the daily story points based for: Left in Iteration, Work in Progress, Completed Work
 
 ![Hash Tags Data]({{ site.url }}/images/hashtagsdata.png)
 
 - **Hash Tags Data**
-  - lists the hash tags used in cards and the equivalent total story points for each hash tag
+  - Lists the hash tags used in cards and the equivalent total story points for each hash tag
 
 After creating the data sheets, the script then creates the following charts:
 
@@ -72,7 +72,7 @@ After creating the data sheets, the script then creates the following charts:
 
 We felt your excitement building while reading through this blog post, so without further ado, we present to you… -drum rolls- PE’s **[Trello Iteration Reporting apps script](https://github.com/SpringerPE/trello-iteration-reporting-apps-script)**.
 
-![You get an apps script!]({{ site.url }}/images/audience.gif)
+![You get an apps script!]()
 
 
 
