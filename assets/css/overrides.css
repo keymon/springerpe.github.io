@@ -71,3 +71,7 @@ footer {
 .footer-wrapper a:hover{
 	color: rgba(255,255,255,0.6)
 }
+
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul {
+	background: rgba(35, 56, 77, 0.9);
+}
