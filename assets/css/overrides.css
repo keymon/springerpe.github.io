@@ -1,0 +1,98 @@
+.entry-image img {
+	min-width: 53%;
+	min-height: 53%;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+}
+
+.feature .header-title h1 {
+	text-align: center;
+	text-transform: uppercase;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	letter-spacing: 10px;
+  text-shadow:  rgba(35, 56, 77, 0.9) 1px 1px,
+   rgba(35, 56, 77, 0.9) 2px 2px,
+   rgba(35, 56, 77, 0.9) 3px 3px,
+   rgba(35, 56, 77, 0.9) 4px 4px,
+   rgba(35, 56, 77, 0.9) 5px 5px,
+   rgba(35, 56, 77, 0.9) 6px 6px,
+   rgba(35, 56, 77, 0.6) 7px 7px,
+   rgba(35, 56, 77, 0.4) 8px 8px;
+}
+
+.entry-meta .tag {
+	color: rgb(35, 56, 77);
+}
+
+.header-title-wrap h1 {
+	text-align: center;
+	text-transform: uppercase;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	color: white;
+	letter-spacing: 10px;
+  text-shadow:  rgba(35, 56, 77, 0.9) 1px 1px,
+   rgba(35, 56, 77, 0.9) 2px 2px,
+   rgba(35, 56, 77, 0.9) 3px 3px,
+   rgba(35, 56, 77, 0.9) 4px 4px,
+   rgba(35, 56, 77, 0.9) 5px 5px,
+   rgba(35, 56, 77, 0.9) 6px 6px,
+   rgba(35, 56, 77, 0.6) 7px 7px,
+   rgba(35, 56, 77, 0.4) 8px 8px;
+}
+
+body {
+	background-color: rgba(35, 56, 77, 0.9);
+}
+
+a{
+	color: rgb(75,92,99);
+}
+
+a:hover{
+	color: rgb(35,56,77);
+}
+
+#post-index article {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.pagination {
+	color: rgba(255,255,255,0.9);
+}
+
+.pagination a {
+	color: rgba(255,255,255,0.3);
+}
+
+.pagination a:hover {
+	color: rgba(255,255,255,0.6);
+}
+
+.btn {
+	background-color: rgba(255,255,255,0.1);
+	border-color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.9);
+}
+.btn:hover {
+	background-color: rgba(68,124,150,0.5);
+}
+
+footer {
+	color: rgba(255,255,255,0.6);
+}
+
+.footer-wrapper a{
+	color: rgba(255,255,255,0.3)
+}
+.footer-wrapper a:hover{
+	color: rgba(255,255,255,0.6)
+}
+
+.dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul {
+	background: rgba(35, 56, 77, 0.9);
+}

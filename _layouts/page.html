@@ -14,16 +14,13 @@
 
 {% if page.image.feature %}
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  <div class="entry-image">
-    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-  </div><!-- /.entry-image -->
+  {% include image.html %}
 </div><!-- /.entry-header -->
 {% endif %}
 
 <div id="main" role="main">
   <article class="entry">
-    <header class="header-title">
+    <header class="header-title" data-0="opacity: 1" data-180="opacity: 0" style="opacity: 1;">
       <div class="header-title-wrap">
         <h1 class="entry-title">{{ page.title }}</h1>
       </div><!-- /.header-title-wrap -->
