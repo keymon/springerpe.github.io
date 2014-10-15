@@ -11,9 +11,16 @@ tags: poodle hack macosx chrome
 comments: true
 share: true
 ---
-Hello! Just a quick post on how to keep yourself from being exploited through (https://poodle.io/)[POODLE] if you're using Google Chrome on a Mac OSX. It's very simple, you can open Chrome via Terminal by typing `nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ssl-version-min=tls1 &`. This disables the use of SSLv3 in Chrome.
+Hello! 
+
+Just a quick post on how to keep yourself from being exploited through (https://poodle.io/)[POODLE] if you're using Google Chrome on a Mac OSX. 
+
+It's very simple, you can open Chrome via Terminal by typing: 
+`nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ssl-version-min=tls1 &`
+This disables the use of SSLv3 in Chrome.
 
 We have another solution, though. You can use Automator to create a launcher:
+
 1. Launch Automator from Applications
 2. Select ‘Application’ and click ‘Choose’
 3. Select 'Library' > ‘Utilities’ from the left column
