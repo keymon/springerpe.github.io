@@ -7,7 +7,7 @@ layout: post
 image:
   feature: DevOpsDaysLogo.png
 published: true
-tags: trello springer tools reporting scrum google-apps-script
+tags: poodle hack macosx chrome
 comments: true
 share: true
 ---
