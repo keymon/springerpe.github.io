@@ -1,7 +1,7 @@
 ---
 author: jorja
 date: 2014-10-15
-title: 'How not to get bitten by the POODLE on Mac OSX's Chrome'
+title: 'How not to get bitten by the POODLE on Mac OSX Chrome'
 category: tech
 layout: post
 image:
