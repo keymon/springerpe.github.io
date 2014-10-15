@@ -13,7 +13,7 @@ share: true
 ---
 Hello! 
 
-Just a quick post on how to keep yourself from being exploited through (https://poodle.io/)[POODLE] if you're using Google Chrome on a Mac OSX. 
+Just a quick post on how to keep yourself from being exploited through [POODLE](https://poodle.io/) if you're using Google Chrome on a Mac OSX. 
 
 It's very simple, you can open Chrome via Terminal by typing: 
 `nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ssl-version-min=tls1 &`
@@ -30,4 +30,4 @@ We have another solution, though. You can use Automator to create a launcher:
 7. Close Chrome
 8. Double-click on the new Chrome launcher you just made
 
-You should now not be able to see "Warning! If you see this box, your browser supports SSLv3!" when you go to (https://poodle.io/)[poodle.io]
+You should now **not** be able to see "Warning! If you see this box, your browser supports SSLv3!" when you go to [poodle.io](https://poodle.io/).
