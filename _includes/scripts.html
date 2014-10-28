@@ -13,12 +13,9 @@
   // Init Skrollr for 768 and up
   if( winW >= 768) {
       // Init Skrollr
-      var s = skrollr.init({
+      skrollr.init({
           forceHeight: false
       });
-      // Resize our slides
-      $slide.height(winH);
-      s.refresh($('.homeSlide'));
   } else {
       // Init Skrollr
       var s = skrollr.init();
