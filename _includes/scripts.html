@@ -1,11 +1,35 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+<script src="{{ site.url }}/js/enquire.min.js"></script>
 <script src="{{ site.url }}/js/skrollr.js"></script>
 <script type="text/javascript">
-	skrollr.init({
-		forceHeight: false
-	});
+  winH = $window.height();
+  winW = $window.width();
+  // Keep minimum height 550
+  if(winH <= 550) {
+      winH = 550;
+  }
+  // Init Skrollr for 768 and up
+  if( winW >= 768) {
+      // Init Skrollr
+      var s = skrollr.init({
+          forceHeight: false
+      });
+      // Resize our slides
+      $slide.height(winH);
+      s.refresh($('.homeSlide'));
+  } else {
+      // Init Skrollr
+      var s = skrollr.init();
+      s.destroy();
+  }
+  // Check for touch
+  if(Modernizr.touch) {
+      // Init Skrollr
+      var s = skrollr.init();
+      s.destroy();
+    }
 </script>
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
