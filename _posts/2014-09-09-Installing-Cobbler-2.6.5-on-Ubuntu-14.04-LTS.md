@@ -39,7 +39,7 @@ Installing Cobbler:
 
 {% highlight bash %}
 sudo apt-get update
-sudo apt-get install cobbler
+sudo apt-get install cobbler="2.6.5-1"
 {% endhighlight %}
 
 Workaround 1: Installing addional required packages
