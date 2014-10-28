@@ -74,12 +74,10 @@ Background: Debian is changing the [Apache2 directory structure for the next ver
 
 {% highlight bash %}
 # moving the config to correct directory 
-mv /etc/apache2/conf.d/cobbler.conf /etc/apache2/conf-available/
-mv /etc/apache2/conf.d/cobbler_web.conf /etc/apache2/conf-available/
+cp /etc/apache2/conf.d/cobbler.conf /etc/apache2/conf-available/
+cp /etc/apache2/conf.d/cobbler_web.conf /etc/apache2/conf-available/
 # ... and enable the cobbler config
-cd /etc/apache2/conf-enabled
-ln -s ../conf-available/cobbler.conf .
-ln -s ../conf-available/cobbler_web.conf .
+a2enconf cobbler cobbler_web
 {% endhighlight %}
 
 Workaround 3: Loading required Apache modules
@@ -108,7 +106,7 @@ Finally: Basic configuration
 Replacing 127.0.0.1 in the cobbler settings file with the actual IP:
 
 {% highlight bash %}
-IP_ETH0=`ifconfig eth0 | grep 'inet addr:' | cut -d":" -f2 | cut -d" " -f1`
+IP_ETH0=$(ifconfig eth0 | grep 'inet addr:' | cut -d":" -f2 | cut -d" " -f1)
 sudo sed -i "s/127\.0\.0\.1/${IP_ETH0}/" /etc/cobbler/settings
 {% endhighlight %}
 
