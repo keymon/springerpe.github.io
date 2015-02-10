@@ -77,6 +77,16 @@ authors:
     twitter: jhoerandtner
     github: jossy
     bio: 'unity user | continuous integrator | coffee culture advocate'
+  ryan:
+    name: Ryan Conway
+    job_title: Platform Engineer
+    display_name: Ryan Conway
+    alias: Dashboard shipping ship
+    gravatar: 
+    email: ryan.conway@springer.com
+    twitter: rylon 
+    github:  
+    bio: 'Builds stuff, breaks things and loves Rap Opera'
   jorja:
     name: Jorja Hung
     job_title: Junior Web Developer
