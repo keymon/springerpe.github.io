@@ -91,12 +91,12 @@ authors:
     name: Felix Friedrich
     job_title: Platform Engineer
     display_name: Felix Friedrich
-    alias: Face
-    gravatar: 
+    alias: Ich bin ein Berliner
+    gravatar: ad3f6990fb5075bd8a3f8ac8d47f59a6
     email: felix.friedrich@springer.com
-    twitter: felixfriedrich 
-    github:  
-    bio:
+    twitter: felixfriedrich
+    github: felixfriedrich
+    bio: Hello world.
   jorja:
     name: Jorja Hung
     job_title: Junior Web Developer
