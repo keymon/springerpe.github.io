@@ -7,13 +7,13 @@ disqus_shortname: springerpe
 url:              http://springerpe.github.io
 # production_url:              http://springerpe.github.io      
 # author information
-author_ids: [otte, keymon, simon, katter, jose, marc, josef, jorja]
+author_ids: [otte, keymon, simon, katter, jose, marc, josef, jorja, ryan, felix]
 authors:
   otte:
     name: Daniel Otte
     job_title: Jefe Problemas
     display_name: Daniel Otte
-    alias: Jef0tte
+    alias: el caPEtan
     gravatar: 1b2ba3880f13a8275537f5d6f70f8b84
     email: daniel.otte@springer.com
     twitter: Jef0tte
@@ -79,14 +79,34 @@ authors:
     bio: 'unity user | continuous integrator | coffee culture advocate'
   jorja:
     name: Jorja Hung
-    job_title: Junior Web Developer
+    job_title: Web Developer
     display_name: Jorja Hung
-    alias: Jorja
+    alias: The fallen
     gravatar: e8f64120f5be55084c37184f6dbd292b
     email: jorja.hung@springer.com
     twitter: jorjski 
     github: jorjahung 
-    bio: 'Springer Pony'
+    bio: 'ex Springer Pony'
+  ryan:
+    name: Ryan Conway
+    job_title: Platform Engineer
+    display_name: Ryan Conway
+    alias: Dashboard shipping ship
+    gravatar: 
+    email: ryan.conway@springer.com
+    twitter: rylon 
+    github:  
+    bio: 'Builds stuff, breaks things and loves Rap Opera'
+   felix:
+    name: Felix Friedrich
+    job_title: Platform Engineer
+    display_name: Felix Friedrich
+    alias: Face
+    gravatar: 
+    email: felix.friedrich@springer.com
+    twitter: felixfriedrich 
+    github:  
+    bio: '' 
 # Owner
 owner:
   name:           Platform Engineering
