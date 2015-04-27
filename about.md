@@ -12,7 +12,7 @@ image:
 
 We are a global team of passionate engineers, who enable development teams rapidly produce, maintain and release software products and services. We do this in an reliable and automated way, if it can't be automated it does not exist! We deliver a set of standards, backing services, guidelines and tools.
 
-We are currently based in London, Dordrecht, Berlin and Heidelberg. Our distributed setup does not stop us from close collaboration and creating an agile workflow.
+We are currently based in London, Dordrecht, Berlin and Wiesbaden. Our distributed setup does not stop us from close collaboration and creating an agile workflow.
 
 
 ###How?
